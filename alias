@@ -1,2 +1,11 @@
+#Add this to your .git/config
+#[include]
+#        path = config.d/alias
+
 [alias]
-	ec = config --global --edit
+	ec = config --global
+	co = checkout
+	cob = checkout -b
+	cm = commit -m
+	fixup = commit --amend --no-edit
+	st = status
