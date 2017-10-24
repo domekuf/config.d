@@ -3,7 +3,7 @@
 #        path = config.d/alias
 
 [alias]
-	ec = config --global
+	ec = config --edit
 	co = checkout
 	cob = checkout -b
 	cm = commit -m
