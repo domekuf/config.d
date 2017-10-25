@@ -9,3 +9,4 @@
 	cm = commit -m
 	fixup = commit --amend --no-edit
 	st = status
+	lst = log -1
